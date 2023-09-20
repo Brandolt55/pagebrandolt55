@@ -1,0 +1,209 @@
+*{
+    margin: 0px;
+    font-family: 'inter';
+}
+/* css da 1° parte da pagina titulo da pagina */
+#cordefundo{
+    background-color:#303030 ;
+    height: 450px;
+    flex-shrink: 0;
+}
+
+#titulo-ladingpage{
+    font-family: "inter";
+    font-size: 50px;
+    color: white;
+    padding-left: 60px;
+    padding-top: 205px;
+    padding-right: 354px;
+    padding-bottom: 20px;
+    font-style: normal;
+}
+
+#decricao{
+    font-family: "inter";
+    font-size: 19px;
+    color: white;
+    padding-left: 60px;
+    padding: bottom 145px; ;
+}
+/* --------------------------------------------------------- */
+/* css da 2° parte que mostra as experiencias da empresa */
+#alinhamento-experiencias{
+    display: flex;
+    height: 229px;
+    flex-shrink: 0;
+    background-color: #F9F9F9;
+}
+
+.numeros{
+    color: #000;
+    font-family: "Inter";
+    font-size: 40px;
+    font-style: normal;
+    padding-top: 70px;
+    padding-left: 250px;
+    
+}
+#numero850{
+    color: #000;
+    font-family: "Inter";
+    font-size: 40px;
+    font-style: normal;
+    padding-top: 90px;
+    padding-left: 160px;
+    padding-bottom: 67;
+}
+
+
+#numero40{
+    color: #000;
+    font-family: "Inter";
+    font-size: 40px;
+    font-style: normal;
+    padding-top: 90px;
+    padding-left: 100px;
+    padding-bottom: 67;
+}
+
+
+#numero2M{
+    color: #000;
+    font-family: "Inter";
+    font-size: 40px;
+    font-style: normal;
+    padding-top: 90px;
+    padding-left: 150px;
+    padding-right: 64;
+    padding-bottom: 67;
+}
+.decrição{
+    font-size: 20px;
+    font-family: 'inter';
+    font-weight: normal;
+}
+/* --------------------------------------------------------- */
+/* css da 3° parte a historia da arquitetura */
+#tamanhodiv{
+    height: 770px;
+    background-color:#FFFFFF;
+    font-family: "Inter";
+    grid-column: auto;
+    display: grid;
+    grid-template-columns: auto;
+    display: flex;
+
+
+}
+
+#tituloaquitetos{
+    padding-top: 260px;
+    padding-left: 70px;
+    font-size: 40px;
+    font-family: "inter";
+    color:#000 ;
+    font-style: normal;
+    font-weight: 500;
+}
+
+#descriçãoarquitetura{
+    color: #000000;
+    font-size: 22px;
+    padding-left: 70px;
+    padding-top: 30px;
+    padding-bottom:300px ;
+    font-style: normal;
+    font-family: "inter";
+    flex: 1;
+}
+#divimagem{
+    padding-top: 80px;
+    padding-right: 45px;
+    padding-bottom: 88px;
+    padding-left: 57px;
+    
+
+}
+/* --------------------------------------------------------- */
+/* parte 4° parte de coletar informações do usuario e edição dos input */
+#divcomunicação{
+    background-color:#303030 ;
+    font-family: "inter";
+    height: 638px;
+    text-align: center;
+}
+
+#tituloparte4{
+    font-family: "inter";
+    font-style: normal;
+    font-size: 32px;
+    color:#ffffff ;
+    text-align: center;
+    padding-top: 87px;
+    padding-bottom: 48px;
+    font-weight: 700;
+    
+}
+
+#inputname{
+    width: 500px;
+    height: 72px;
+    padding-left: 15px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: #EAECE5;
+    font-size: 20px;
+    font-family: "inter";
+    
+
+}
+#inputemail{
+    width: 500px;
+    height: 72px;
+    padding-left: 15px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: #EAECE5;
+    font-size: 20px;
+    font-family: "inter";
+    margin-top: 58px;
+}
+
+input::placeholder{
+    color: rgba(0, 0, 0, 0.30);
+    font-family: "Raleway";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; 
+    padding-left: 7px;
+}
+
+button{
+    margin-top: 88px;
+    margin-bottom: 87px;
+    color: #FFF;
+    font-family: "Raleway";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    background-color: #C07212;
+    border-radius: 10px;
+    width: 286px;
+    height: 72px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #7c4807;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #291700;
+    transition-duration: 0.5s;
+
+}
+
+/* --------------------------------------------------------- */
+
+
